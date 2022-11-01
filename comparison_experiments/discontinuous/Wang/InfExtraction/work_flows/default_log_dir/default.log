@@ -1,0 +1,451 @@
+============================================================================
+{
+    "run_id": "HCJfXOGL",
+    "log_text": "project: cadec4traffic_remove_nested, run_name: re+ner+RAIN+TRAIN, run_id: HCJfXOGL\n"
+}============================================================================
+{
+    "run_id": "HCJfXOGL",
+    "log_text": {
+        "config": {
+            "model_name": "RAIN",
+            "seed": 2333,
+            "task_type": "re+ner",
+            "epochs": 300,
+            "learning_rate": 0.001,
+            "batch_size_train": 12,
+            "batch_size_valid": 12,
+            "batch_size_test": 12,
+            "max_seq_len_train": 64,
+            "max_seq_len_valid": 100,
+            "max_seq_len_test": 100,
+            "sliding_len_train": 64,
+            "sliding_len_valid": 100,
+            "sliding_len_test": 100,
+            "note": "",
+            "model_state_dict_path": null,
+            "run_name": "re+ner+RAIN+TRAIN",
+            "exp_name": "cadec4traffic_remove_nested",
+            "scheduler_config": {
+                "name": "CAWR",
+                "T_mult": 1,
+                "rewarm_epochs": 10
+            },
+            "log_interval": 10,
+            "pos_tag_emb_config": null,
+            "ner_tag_emb_config": null,
+            "char_encoder_config": null,
+            "subwd_encoder_config": {
+                "pretrained_model_path": "../../data/pretrained_models/bert-base-chinese",
+                "finetune": true,
+                "use_last_k_layers": 1
+            },
+            "word_encoder_config": null,
+            "dep_config": null,
+            "handshaking_kernel_config": {
+                "ent_shaking_type": "cln+lstm",
+                "rel_shaking_type": "cln"
+            },
+            "use_attns4rel": true,
+            "ent_dim": 768,
+            "rel_dim": 768,
+            "tok_pair_neg_sampling_rate": 0.5,
+            "clique_comp_loss": false,
+            "do_span_len_emb": true,
+            "loss_weight": 0.5,
+            "loss_weight_recover_steps": 0,
+            "token_level": "subword",
+            "optimizer": {
+                "class_name": "Adam",
+                "parameters": {}
+            },
+            "addtional_preprocessing_config": {
+                "add_default_entity_type": false,
+                "classify_entities_by_relation": false,
+                "use_bound": true
+            },
+            "tagger_config": {
+                "classify_entities_by_relation": false,
+                "add_h2t_n_t2h_links": true,
+                "add_o2s_links": false,
+                "language": "cn",
+                "use_bound": true
+            },
+            "combine_split": true
+        }
+    }
+}============================================================================
+{
+    "run_id": "8RCv6oBW",
+    "log_text": "project: cadec4traffic_remove_nested, run_name: re+ner+RAIN+TRAIN, run_id: 8RCv6oBW\n"
+}============================================================================
+{
+    "run_id": "8RCv6oBW",
+    "log_text": {
+        "config": {
+            "model_name": "RAIN",
+            "seed": 2333,
+            "task_type": "re+ner",
+            "epochs": 1,
+            "learning_rate": 0.002,
+            "batch_size_train": 12,
+            "batch_size_valid": 12,
+            "batch_size_test": 12,
+            "max_seq_len_train": 64,
+            "max_seq_len_valid": 100,
+            "max_seq_len_test": 100,
+            "sliding_len_train": 64,
+            "sliding_len_valid": 100,
+            "sliding_len_test": 100,
+            "note": "",
+            "model_state_dict_path": null,
+            "run_name": "re+ner+RAIN+TRAIN",
+            "exp_name": "cadec4traffic_remove_nested",
+            "scheduler_config": {
+                "name": "CAWR",
+                "T_mult": 1,
+                "rewarm_epochs": 10
+            },
+            "log_interval": 10,
+            "pos_tag_emb_config": null,
+            "ner_tag_emb_config": null,
+            "char_encoder_config": null,
+            "subwd_encoder_config": {
+                "pretrained_model_path": "../../data/pretrained_models/bert-base-chinese",
+                "finetune": true,
+                "use_last_k_layers": 1
+            },
+            "word_encoder_config": null,
+            "dep_config": null,
+            "handshaking_kernel_config": {
+                "ent_shaking_type": "cln+lstm",
+                "rel_shaking_type": "cln"
+            },
+            "use_attns4rel": true,
+            "ent_dim": 768,
+            "rel_dim": 768,
+            "tok_pair_neg_sampling_rate": 0.5,
+            "clique_comp_loss": false,
+            "do_span_len_emb": true,
+            "loss_weight": 0.5,
+            "loss_weight_recover_steps": 0,
+            "token_level": "subword",
+            "optimizer": {
+                "class_name": "Adam",
+                "parameters": {}
+            },
+            "addtional_preprocessing_config": {
+                "add_default_entity_type": false,
+                "classify_entities_by_relation": false,
+                "use_bound": true
+            },
+            "tagger_config": {
+                "classify_entities_by_relation": false,
+                "add_h2t_n_t2h_links": true,
+                "add_o2s_links": false,
+                "language": "cn",
+                "use_bound": true
+            },
+            "combine_split": true
+        }
+    }
+}============================================================================
+{
+    "run_id": "iXxFmSgc",
+    "log_text": "project: cadec4yelp, run_name: re+ner+RAIN+TRAIN, run_id: iXxFmSgc\n"
+}============================================================================
+{
+    "run_id": "iXxFmSgc",
+    "log_text": {
+        "config": {
+            "model_name": "RAIN",
+            "seed": 2333,
+            "task_type": "re+ner",
+            "epochs": 3,
+            "learning_rate": 0.001,
+            "batch_size_train": 12,
+            "batch_size_valid": 12,
+            "batch_size_test": 12,
+            "max_seq_len_train": 64,
+            "max_seq_len_valid": 100,
+            "max_seq_len_test": 100,
+            "sliding_len_train": 64,
+            "sliding_len_valid": 100,
+            "sliding_len_test": 100,
+            "note": "",
+            "model_state_dict_path": null,
+            "run_name": "re+ner+RAIN+TRAIN",
+            "exp_name": "cadec4yelp",
+            "scheduler_config": {
+                "name": "CAWR",
+                "T_mult": 1,
+                "rewarm_epochs": 10
+            },
+            "log_interval": 10,
+            "pos_tag_emb_config": null,
+            "ner_tag_emb_config": null,
+            "char_encoder_config": null,
+            "subwd_encoder_config": {
+                "pretrained_model_path": "../../data/pretrained_models/yelpbert",
+                "finetune": true,
+                "use_last_k_layers": 1
+            },
+            "word_encoder_config": null,
+            "dep_config": null,
+            "handshaking_kernel_config": {
+                "ent_shaking_type": "cln+lstm",
+                "rel_shaking_type": "cln"
+            },
+            "use_attns4rel": true,
+            "ent_dim": 768,
+            "rel_dim": 768,
+            "tok_pair_neg_sampling_rate": 0.5,
+            "clique_comp_loss": false,
+            "do_span_len_emb": true,
+            "loss_weight": 0.5,
+            "loss_weight_recover_steps": 0,
+            "token_level": "subword",
+            "optimizer": {
+                "class_name": "Adam",
+                "parameters": {}
+            },
+            "addtional_preprocessing_config": {
+                "add_default_entity_type": false,
+                "classify_entities_by_relation": false,
+                "use_bound": true
+            },
+            "tagger_config": {
+                "classify_entities_by_relation": false,
+                "add_h2t_n_t2h_links": true,
+                "add_o2s_links": false,
+                "language": "en",
+                "use_bound": true
+            },
+            "combine_split": true
+        }
+    }
+}============================================================================
+{
+    "run_id": "WaXuOlpi",
+    "log_text": "project: traffic, run_name: re+ner+RAIN+TRAIN, run_id: WaXuOlpi\n"
+}============================================================================
+{
+    "run_id": "WaXuOlpi",
+    "log_text": {
+        "config": {
+            "model_name": "RAIN",
+            "seed": 2333,
+            "task_type": "re+ner",
+            "epochs": 3,
+            "learning_rate": 0.001,
+            "batch_size_train": 12,
+            "batch_size_valid": 12,
+            "batch_size_test": 12,
+            "max_seq_len_train": 64,
+            "max_seq_len_valid": 100,
+            "max_seq_len_test": 100,
+            "sliding_len_train": 64,
+            "sliding_len_valid": 100,
+            "sliding_len_test": 100,
+            "note": "",
+            "model_state_dict_path": null,
+            "run_name": "re+ner+RAIN+TRAIN",
+            "exp_name": "traffic",
+            "scheduler_config": {
+                "name": "CAWR",
+                "T_mult": 1,
+                "rewarm_epochs": 10
+            },
+            "log_interval": 10,
+            "pos_tag_emb_config": null,
+            "ner_tag_emb_config": null,
+            "char_encoder_config": null,
+            "subwd_encoder_config": {
+                "pretrained_model_path": "../../data/pretrained_models/bertbasechinese",
+                "finetune": true,
+                "use_last_k_layers": 1
+            },
+            "word_encoder_config": null,
+            "dep_config": null,
+            "handshaking_kernel_config": {
+                "ent_shaking_type": "cln+lstm",
+                "rel_shaking_type": "cln"
+            },
+            "use_attns4rel": true,
+            "ent_dim": 768,
+            "rel_dim": 768,
+            "tok_pair_neg_sampling_rate": 0.5,
+            "clique_comp_loss": false,
+            "do_span_len_emb": true,
+            "loss_weight": 0.5,
+            "loss_weight_recover_steps": 0,
+            "token_level": "subword",
+            "optimizer": {
+                "class_name": "Adam",
+                "parameters": {}
+            },
+            "addtional_preprocessing_config": {
+                "add_default_entity_type": false,
+                "classify_entities_by_relation": false,
+                "use_bound": true
+            },
+            "tagger_config": {
+                "classify_entities_by_relation": false,
+                "add_h2t_n_t2h_links": true,
+                "add_o2s_links": false,
+                "language": "cn",
+                "use_bound": true
+            },
+            "combine_split": true
+        }
+    }
+}============================================================================
+{
+    "run_id": "TPuKbgH0",
+    "log_text": "project: traffic, run_name: re+ner+RAIN+TRAIN, run_id: TPuKbgH0\n"
+}============================================================================
+{
+    "run_id": "TPuKbgH0",
+    "log_text": {
+        "config": {
+            "model_name": "RAIN",
+            "seed": 2333,
+            "task_type": "re+ner",
+            "epochs": 3,
+            "learning_rate": 0.001,
+            "batch_size_train": 12,
+            "batch_size_valid": 12,
+            "batch_size_test": 12,
+            "max_seq_len_train": 64,
+            "max_seq_len_valid": 100,
+            "max_seq_len_test": 100,
+            "sliding_len_train": 64,
+            "sliding_len_valid": 100,
+            "sliding_len_test": 100,
+            "note": "",
+            "model_state_dict_path": null,
+            "run_name": "re+ner+RAIN+TRAIN",
+            "exp_name": "traffic",
+            "scheduler_config": {
+                "name": "CAWR",
+                "T_mult": 1,
+                "rewarm_epochs": 10
+            },
+            "log_interval": 10,
+            "pos_tag_emb_config": null,
+            "ner_tag_emb_config": null,
+            "char_encoder_config": null,
+            "subwd_encoder_config": {
+                "pretrained_model_path": "../../data/pretrained_models/bertbasechinese",
+                "finetune": true,
+                "use_last_k_layers": 1
+            },
+            "word_encoder_config": null,
+            "dep_config": null,
+            "handshaking_kernel_config": {
+                "ent_shaking_type": "cln+lstm",
+                "rel_shaking_type": "cln"
+            },
+            "use_attns4rel": true,
+            "ent_dim": 768,
+            "rel_dim": 768,
+            "tok_pair_neg_sampling_rate": 0.5,
+            "clique_comp_loss": false,
+            "do_span_len_emb": true,
+            "loss_weight": 0.5,
+            "loss_weight_recover_steps": 0,
+            "token_level": "subword",
+            "optimizer": {
+                "class_name": "Adam",
+                "parameters": {}
+            },
+            "addtional_preprocessing_config": {
+                "add_default_entity_type": false,
+                "classify_entities_by_relation": false,
+                "use_bound": true
+            },
+            "tagger_config": {
+                "classify_entities_by_relation": false,
+                "add_h2t_n_t2h_links": true,
+                "add_o2s_links": false,
+                "language": "en",
+                "use_bound": true
+            },
+            "combine_split": true
+        }
+    }
+}============================================================================
+{
+    "run_id": "2UcEAXIQ",
+    "log_text": "project: traffic, run_name: re+ner+RAIN+TRAIN, run_id: 2UcEAXIQ\n"
+}============================================================================
+{
+    "run_id": "2UcEAXIQ",
+    "log_text": {
+        "config": {
+            "model_name": "RAIN",
+            "seed": 2333,
+            "task_type": "re+ner",
+            "epochs": 3,
+            "learning_rate": 0.001,
+            "batch_size_train": 12,
+            "batch_size_valid": 12,
+            "batch_size_test": 12,
+            "max_seq_len_train": 64,
+            "max_seq_len_valid": 100,
+            "max_seq_len_test": 100,
+            "sliding_len_train": 64,
+            "sliding_len_valid": 100,
+            "sliding_len_test": 100,
+            "note": "",
+            "model_state_dict_path": null,
+            "run_name": "re+ner+RAIN+TRAIN",
+            "exp_name": "traffic",
+            "scheduler_config": {
+                "name": "CAWR",
+                "T_mult": 1,
+                "rewarm_epochs": 10
+            },
+            "log_interval": 10,
+            "pos_tag_emb_config": null,
+            "ner_tag_emb_config": null,
+            "char_encoder_config": null,
+            "subwd_encoder_config": {
+                "pretrained_model_path": "../../data/pretrained_models/bertbasechinese",
+                "finetune": true,
+                "use_last_k_layers": 1
+            },
+            "word_encoder_config": null,
+            "dep_config": null,
+            "handshaking_kernel_config": {
+                "ent_shaking_type": "cln+lstm",
+                "rel_shaking_type": "cln"
+            },
+            "use_attns4rel": true,
+            "ent_dim": 768,
+            "rel_dim": 768,
+            "tok_pair_neg_sampling_rate": 0.5,
+            "clique_comp_loss": false,
+            "do_span_len_emb": true,
+            "loss_weight": 0.5,
+            "loss_weight_recover_steps": 0,
+            "token_level": "subword",
+            "optimizer": {
+                "class_name": "Adam",
+                "parameters": {}
+            },
+            "addtional_preprocessing_config": {
+                "add_default_entity_type": false,
+                "classify_entities_by_relation": false,
+                "use_bound": true
+            },
+            "tagger_config": {
+                "classify_entities_by_relation": false,
+                "add_h2t_n_t2h_links": true,
+                "add_o2s_links": false,
+                "language": "cn",
+                "use_bound": true
+            },
+            "combine_split": true
+        }
+    }
+}

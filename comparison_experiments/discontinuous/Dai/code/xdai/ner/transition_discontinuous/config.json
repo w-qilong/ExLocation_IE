@@ -1,0 +1,9 @@
+{
+  "pretrained_word_embeddings": "/home/administrator/PycharmProjects/Expressway_extract/controlled_experiment/acl2020-transition-discontinuous-ner-master/data/gigaword_chn.all.a2b.uni.ite50.vec",
+  "word_embedding_size": 50,
+  "char_embedding_size": 16,
+  "action_embedding_size": 20,
+  "lstm_cell_size": 200,
+  "lstm_layers": 2,
+  "dropout": 0.5
+}

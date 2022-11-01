@@ -1,0 +1,8 @@
+2022/10/05 16:12:35 - utils - [INFO] - Read cache from cache\expressway_trainClip:Truebgminfreq_1char_min_freq_1word_min_freq_1only_train_min_freqTruenumber_norm0load_dataset_seed100.
+2022/10/05 16:12:35 - utils - [INFO] - Read cache from cache/yj.
+2022/10/05 16:12:36 - utils - [INFO] - Read cache from cache\expressway.
+2022/10/05 16:12:37 - bert_tokenizer - [INFO] - loading vocabulary file C:\Users\wuqilong\.fastNLP\embedding\bert-chinese-wwm\vocab.txt
+2022/10/05 16:12:38 - bert - [INFO] - Load pre-trained BERT parameters from file C:\Users\wuqilong\.fastNLP\embedding\bert-chinese-wwm\chinese_wwm_pytorch.bin.
+2022/10/05 16:12:38 - bert_embedding - [INFO] - Start to generate word pieces for word.
+2022/10/05 16:12:38 - bert_embedding - [INFO] - 82 words are unsegmented. Among them, 65 added to the BPE vocab.
+2022/10/05 16:12:41 - trainer - [INFO] - training epochs started 2022-10-05-16-12-41-559980

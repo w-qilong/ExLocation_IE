@@ -1,0 +1,27 @@
+{
+    "os": "Windows-10-10.0.22623-SP0",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-10-07T10:23:30.455902",
+    "startedAt": "2022-10-07T10:23:30.310124",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060 with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "-s",
+        "settings_rain4disc.py"
+    ],
+    "state": "running",
+    "program": "train_valid.py",
+    "codePath": "controlled_experiment\\NER-Models\\InfExtraction-master\\InfExtraction\\work_flows\\train_valid.py",
+    "git": {
+        "remote": "https://github.com/wuqilong0328/Expressway_extract.git",
+        "commit": "b4d2697b7e3836c25e1c2c6af890b16305b0d525"
+    },
+    "email": "1528625919@qq.com",
+    "root": "D:/PythonProject/Expressway_extract",
+    "host": "wuqilong",
+    "username": "wuqilong",
+    "executable": "D:\\Anaconda3\\envs\\poi\\python.exe"
+}

@@ -1,0 +1,4 @@
+2022/10/05 14:47:05 - utils - [INFO] - Read cache from cache\expressway_trainClip:Truebgminfreq_1char_min_freq_1word_min_freq_1only_train_min_freqTruenumber_norm0load_dataset_seed100.
+2022/10/05 14:47:06 - utils - [INFO] - Read cache from cache/yj.
+2022/10/05 14:47:29 - fastNLP_module - [INFO] - Found 698668 out of 698670 words in the pre-training embedding.
+2022/10/05 14:47:39 - fastNLP_module - [INFO] - Found 7127 out of 7140 words in the pre-training embedding.

@@ -1,0 +1,25 @@
+{
+    "word_num": 1371,
+    "char_num": 1371,
+    "max_word_seq_length": 199,
+    "max_subword_seq_length": 199,
+    "ent_type_num": 13,
+    "ent_types": [
+        "RoadSection",
+        "Time",
+        "StakeNumber",
+        "Flyover",
+        "Station",
+        "Expressway",
+        "Hub",
+        "Interchange",
+        "Tunnel",
+        "ServiceArea",
+        "Ramp",
+        "Direction",
+        "ExpresswayCode"
+    ],
+    "dev": 426,
+    "test": 461,
+    "train": 1200
+}
